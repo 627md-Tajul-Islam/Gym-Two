@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym 2 </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <section>
+         <header>
+             <a href="#" class="logo"> Fitness</a>
+ <div class="toggleMenu" onclick="toggleMenu();">
+
+ </div>            
+             <ul class="navigation">
+  <li> <a href="#">Home </a></li>
+  <li> <a href="#">About </a></li>
+  <li> <a href="#">Trainers </a></li>
+  <li> <a href="#">Blog </a></li>
+  <li> <a href="#">Contact </a></li>
+             </ul>
+         </header>
+         <div class="content">
+     <div class="contentBx">
+<h2> Build Perfect Body <br>  With Clean Mind</h2> 
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College </p>
+<a href="#">Get Started </a>
+         </div>
+         </div>
+<ul class="sci">
+<li><a href="#"> <img src="img/facebook.png" alt=""> </a></li>
+<li><a href="#"> <img src="img/twitter.png" alt=""> </a></li>
+<li><a href="#"> <img src="img/instagram.png" alt=""> </a></li>
+</ul>
+     </section>
+     <script>
+         function toggleMenu(){ 
+         const toggleMenu = document.querySelector('.toggleMenu');
+         const navigation = document.querySelector('.navigation');
+         
+         toggleMenu.classList.toggle('active');
+         navigation.classList.toggle('active');
+         }
+     </script>
+    
+</body>
+</html>
